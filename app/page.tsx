@@ -338,7 +338,7 @@ export default async function Home() {
         </div>
       </section>
 
-           {/* FAQ Section */}
+      {/* FAQ Section */}
       <section className="py-20 bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
