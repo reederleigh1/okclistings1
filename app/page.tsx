@@ -338,7 +338,7 @@ export default async function Home() {
         </div>
       </section>
 
-      {/* FAQ Section */}
+           {/* FAQ Section */}
       <section className="py-20 bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
@@ -488,17 +488,19 @@ export default async function Home() {
             <div>
               <h4 className="font-semibold mb-4 text-accent">Contact</h4>
               <p className="text-slate-200">
-                Support: rrrdevelopment82@gmail.com
+                Support: <a 
+                  href="mailto:rrrdevelopment82@gmail.com" 
+                  className="underline hover:text-white transition-colors"
+                >
+                  rrrdevelopment82@gmail.com
+                </a>
                 <br />
                 Attn: OKC Support
               </p>
             </div>
           </div>
-          <div className="border-t border-secondary/30 mt-8 pt-8 text-center text-slate-200">
-            <p>&copy; 2025 okclistings1.com. All rights reserved.</p>
-          </div>
         </div>
       </footer>
     </div>
-  )
+  );
 }
