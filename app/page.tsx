@@ -1,3 +1,32 @@
+// app/page.tsx
+import SearchBox from '../components/SearchBox';
+
+export default function Home() {
+  return (
+    <>
+      {/* Hero Section with Search */}
+      <section className="bg-gradient-to-br from-blue-500 to-purple-600 py-16">
+        <div className="container mx-auto px-4">
+          <div className="text-center text-white mb-8">
+            <h1 className="text-5xl font-bold mb-4">Find OKC Gigs & Jobs</h1>
+            <p className="text-xl opacity-90">
+              Discover 50+ curated job search terms for Oklahoma City
+            </p>
+          </div>
+          <SearchBox />
+        </div>
+      </section>
+
+      {/* Additional sections */}
+      <section className="py-12 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-8">How It Works</h2>
+          {/* ... rest of your content */}
+        </div>
+      </section>
+    </>
+  );
+}
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
