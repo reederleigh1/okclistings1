@@ -231,7 +231,7 @@ export default async function Home() {
                 </div>
                 <div className="p-6 bg-white border-t border-slate-200">
                   <div className="text-center mb-4">
-                    <span className="text-3xl font-bold text-slate-800">$25</span>
+                    <span className="text-3xl font-bold text-slate-800">$10</span>
                     <span className="text-slate-600 ml-2">/ 30 days</span>
                   </div>
                   <Link href="/post-job?tier=basic">
@@ -278,7 +278,7 @@ export default async function Home() {
                 </div>
                 <div className="p-6 bg-white border-t border-slate-200">
                   <div className="text-center mb-4">
-                    <span className="text-3xl font-bold text-slate-800">$99</span>
+                    <span className="text-3xl font-bold text-slate-800">$25</span>
                     <span className="text-slate-600 ml-2">/ 30 days</span>
                   </div>
                   <Link href="/post-job?tier=featured">
@@ -325,7 +325,7 @@ export default async function Home() {
                 </div>
                 <div className="p-6 bg-white border-t border-slate-200">
                   <div className="text-center mb-4">
-                    <span className="text-3xl font-bold text-slate-800">$199</span>
+                    <span className="text-3xl font-bold text-slate-800">$35</span>
                     <span className="text-slate-600 ml-2">/ 30 days</span>
                   </div>
                   <Link href="/post-job?tier=premium">
