@@ -31,7 +31,8 @@ export default async function Home() {
       <nav className="border-b bg-primary backdrop-blur">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <Link href="/" className="text-2xl font-bold text-secondary">
-            okclistings1.com
+            okc
+            listings1.com
           </Link>
           <div className="flex items-center gap-4">
             <Link href="#pricing">
