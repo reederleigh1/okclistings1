@@ -31,7 +31,8 @@ export default async function Home() {
       <nav className="border-b bg-primary backdrop-blur">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <Link href="/" className="text-2xl font-bold text-secondary">
-            okclistings1.com
+            okc
+            listings1.com
           </Link>
           <div className="flex items-center gap-4">
             <Link href="#pricing">
@@ -231,7 +232,7 @@ export default async function Home() {
                 </div>
                 <div className="p-6 bg-white border-t border-slate-200">
                   <div className="text-center mb-4">
-                    <span className="text-3xl font-bold text-slate-800">$25</span>
+                    <span className="text-3xl font-bold text-slate-800">$10</span>
                     <span className="text-slate-600 ml-2">/ 30 days</span>
                   </div>
                   <Link href="/post-job?tier=basic">
@@ -278,7 +279,7 @@ export default async function Home() {
                 </div>
                 <div className="p-6 bg-white border-t border-slate-200">
                   <div className="text-center mb-4">
-                    <span className="text-3xl font-bold text-slate-800">$99</span>
+                    <span className="text-3xl font-bold text-slate-800">$25</span>
                     <span className="text-slate-600 ml-2">/ 30 days</span>
                   </div>
                   <Link href="/post-job?tier=featured">
@@ -325,7 +326,7 @@ export default async function Home() {
                 </div>
                 <div className="p-6 bg-white border-t border-slate-200">
                   <div className="text-center mb-4">
-                    <span className="text-3xl font-bold text-slate-800">$199</span>
+                    <span className="text-3xl font-bold text-slate-800">$35</span>
                     <span className="text-slate-600 ml-2">/ 30 days</span>
                   </div>
                   <Link href="/post-job?tier=premium">
@@ -488,19 +489,17 @@ export default async function Home() {
             <div>
               <h4 className="font-semibold mb-4 text-accent">Contact</h4>
               <p className="text-slate-200">
-                Support: <a 
-                  href="mailto:rrrdevelopment82@gmail.com" 
-                  className="underline hover:text-white transition-colors"
-                >
-                  rrrdevelopment82@gmail.com
-                </a>
+                Support: rrrdevelopment82@gmail.com
                 <br />
                 Attn: OKC Support
               </p>
             </div>
           </div>
+          <div className="border-t border-secondary/30 mt-8 pt-8 text-center text-slate-200">
+            <p>&copy; 2025 okclistings1.com. All rights reserved.</p>
+          </div>
         </div>
       </footer>
     </div>
-  );
+  )
 }

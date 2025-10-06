@@ -13,7 +13,7 @@ export const PRODUCTS: Product[] = [
     id: "basic-listing",
     name: "Basic Listing",
     description: "Perfect for small businesses and one-time gigs",
-    priceInCents: 2900, // $29
+    priceInCents: 1000, // $10
     tier: "basic",
     duration: "30 days",
     features: ["30-day listing", "Standard placement", "Basic job details", "Email notifications"],

@@ -1,23 +1,33 @@
-import type { Metadata } from 'next'
-   
-   export const metadata: Metadata = {
-     // ... your existing metadata
-     other: {
-       'google-adsense-account': 'ca-pub-2318501422393986'
-     }
-   }
-   
-   export default function RootLayout({
-     children,
-   }: {
-     children: React.ReactNode
-   }) {
-     return (
-       <html lang="en">
-         <head>
-           <meta name="google-adsense-account" content="ca-pub-2318501422393986" />
-         </head>
-         <body>{children}</body>
-       </html>
-     )
-   }
+import type React from "react"
+import type { Metadata } from "next"
+import { Poppins } from "next/font/google"
+import { Analytics } from "@vercel/analytics/next"
+import { Suspense } from "react"
+import "./globals.css"
+
+const poppins = Poppins({
+  weight: ["300", "400", "500", "600", "700"],
+  subsets: ["latin"],
+  variable: "--font-poppins",
+})
+
+export const metadata: Metadata = {
+  title: "okclistings1.com - Find Your Next Gig in Oklahoma City",
+  description: "Oklahoma City's premier platform for connecting talented freelancers with local businesses",
+  generator: "v0.app",
+}
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode
+}>) {
+  return (
+    <html lang="en">
+      <body className={`${poppins.variable} font-sans antialiased`}>
+        <Suspense fallback={<div>Loading...</div>}>{children}</Suspense>
+        <Analytics />
+      </body>
+    </html>
+  )
+}
