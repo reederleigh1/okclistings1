@@ -14,6 +14,7 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "okclistings1.com - Find Your Next Gig in Oklahoma City",
   description: "Oklahoma City's premier platform for connecting talented freelancers with local businesses",
+  generator: "v0.app",
 }
 
 export default function RootLayout({
